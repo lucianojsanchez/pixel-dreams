@@ -82,10 +82,7 @@ const CreatePost = () => {
   return (
     <div className="flex justify-center items-center h-full">
       <section className="max-w-7xl mx-auto">
-        <div
-          className="bg-gradient-to-r from-[#
-#e8e2dd] to-[#ffffff] drop-shadow-lg rounded-lg shadow-md px-5 xs:px-20 py-10 mt-20 shadow-black "
-        >
+        <div className="bg-gradient-to-r from-[#ffffff] to-[#ffffff] drop-shadow-lg rounded-lg shadow-md px-5 xs:px-20 py-10 mt-20 shadow-black ">
           <div className="px-5">
             <h1 className="font-extrabold text-[#333333] text-[32px] text-center">
               Create your Image
