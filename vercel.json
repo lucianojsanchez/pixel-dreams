@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/create-post",
-      "destination": "/index.html"
+      "destination": "/create-post.html"
     },
     {
       "source": "/(.*)",
