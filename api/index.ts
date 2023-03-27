@@ -23,7 +23,9 @@ const startServer = async () => {
   try {
     connectDB(process.env.MONGODB_URL);
     app.listen(8080, () =>
-      console.log("Server has started on link - http://localhost:8080/ ")
+      console.log(
+        "Server has started on link - https://pixel-dreams-9dip.onrender.com/ "
+      )
     );
   } catch (error) {
     console.log(error);
