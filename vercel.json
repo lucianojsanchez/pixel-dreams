@@ -4,9 +4,24 @@
       "src": "/api/(.*)",
       "dest": "https://pixel-dreams-api.onrender.com/api/v1/$1"
     },
+
     {
       "src": "/(.*)",
       "dest": "/index.html"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/create-post",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/:any*",
+      "destination": "/index.html"
     }
   ]
 }
