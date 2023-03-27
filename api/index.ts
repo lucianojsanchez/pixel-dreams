@@ -16,7 +16,7 @@ app.use("/api/v1/dalle", dalleRoutes);
 app.use("/api/v1/post/:id", postRoutes);
 
 app.get("/", async (req, res) => {
-  res.send("Hello from Tyom's server");
+  res.send("Working Backend");
 });
 
 const startServer = async () => {
