@@ -15,6 +15,8 @@ Pixel Dreams is a MERN stack web application created for learning purposes. It u
 - Tailwind CSS
 - Typescript
 
+**Deploy:** Render + Vercel
+
 ## Features
 
 - Users can create posts by entering a name, prompt, and an image
@@ -27,20 +29,28 @@ Pixel Dreams is a MERN stack web application created for learning purposes. It u
 
 To get started with the project, clone the repository and install the dependencies:
 
-`git clone https://github.com/lucianojsanchez/pixel-dreams.git
+```bash
+git clone https://github.com/lucianojsanchez/pixel-dreams.git
 cd pixel-dreams
 npm install`
+```
 
 Next, create a `.env` file in the root of the project with the following contents:
 
-`MONGODB_URL=<your-mongodb-url>
+```
+MONGODB_URL=<your-mongodb-url>
 CLOUDINARY_CLOUD_NAME=<your-cloudinary-cloud-name>
 CLOUDINARY_API_KEY=<your-cloudinary-api-key>
 CLOUDINARY_API_SECRET=<your-cloudinary-api-secret>
 DALLE_API_KEY=<your-dalle-api-key>
-DALLE_API_SECRET=<your-dalle-api-secret>`
+DALLE_API_SECRET=<your-dalle-api-secret>
+```
 
 Finally, start the server:
+
+```
+npn start
+```
 
 ## Contributing
 
