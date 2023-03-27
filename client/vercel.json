@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/createpost",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
