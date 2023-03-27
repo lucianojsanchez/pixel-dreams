@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/create-post",
-      "destination": "/create-post.html"
+      "source": "/createpost",
+      "destination": "/index.html"
     },
     {
       "source": "/(.*)",

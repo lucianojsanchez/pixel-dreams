@@ -13,7 +13,7 @@ const Header = () => {
       {location.pathname === "/" ? (
         <div>
           <Link
-            to="/create-post"
+            to="/createpost"
             className="font-roboto font-medium bg-[#EA5455] text-white px-4 py-3 rounded-md shadow-2xl shadow-gray-500 hover:bg-[#ff7f7f] mx-1"
           >
             Create
