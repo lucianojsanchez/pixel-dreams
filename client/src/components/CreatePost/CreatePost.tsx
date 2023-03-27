@@ -23,7 +23,7 @@ const CreatePost = () => {
       setLoading(true);
       try {
         const response = await fetch(
-          "https://pixel-dreams-9dip.onrender.com/v1/post",
+          "https://pixel-dreams-9dip.onrender.com/api/v1/post",
           {
             method: "POST",
             headers: {
@@ -56,7 +56,7 @@ const CreatePost = () => {
       try {
         setGeneratingImg(true);
         const response = await fetch(
-          "https://pixel-dreams-9dip.onrender.com/v1/dalle",
+          "https://pixel-dreams-9dip.onrender.com/api/v1/dalle",
           {
             method: "POST",
             headers: {

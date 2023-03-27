@@ -28,7 +28,7 @@ const Home = () => {
 
       try {
         const response = await fetch(
-          "https://pixel-dreams-9dip.onrender.com/v1/post",
+          "https://pixel-dreams-9dip.onrender.com/api/v1/post",
           {
             method: "GET",
             headers: {
