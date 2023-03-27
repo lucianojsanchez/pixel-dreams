@@ -13,6 +13,7 @@ app.use(express.json({ limit: "50mb" }));
 
 app.use("/api/v1/post", postRoutes);
 app.use("/api/v1/dalle", dalleRoutes);
+app.use("/api/v1/post/:id", postRoutes);
 
 app.get("/", async (req, res) => {
   res.send("Hello from Tyom's server");

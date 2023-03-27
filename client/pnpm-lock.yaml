@@ -1,10 +1,12 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@types/file-saver': ^2.0.5
   '@types/react': ^18.0.28
   '@types/react-dom': ^18.0.11
   '@vitejs/plugin-react': ^3.1.0
   autoprefixer: ^10.4.14
+  file-saver: ^2.0.5
   postcss: ^8.4.21
   react: ^18.2.0
   react-dom: ^18.2.0
@@ -14,11 +16,13 @@ specifiers:
   vite: ^4.2.0
 
 dependencies:
+  file-saver: 2.0.5
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-router-dom: 6.9.0_biqbaboplfbrettd7655fr4n2y
 
 devDependencies:
+  '@types/file-saver': 2.0.5
   '@types/react': 18.0.28
   '@types/react-dom': 18.0.11
   '@vitejs/plugin-react': 3.1.0_vite@4.2.1
@@ -520,6 +524,10 @@ packages:
     engines: {node: '>=14'}
     dev: false
 
+  /@types/file-saver/2.0.5:
+    resolution: {integrity: sha512-zv9kNf3keYegP5oThGLaPk8E081DFDuwfqjtiTzm6PoxChdJ1raSuADf2YGCVIyrSynLrgc8JWv296s7Q7pQSQ==}
+    dev: true
+
   /@types/prop-types/15.7.5:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: true
@@ -790,6 +798,10 @@ packages:
     dependencies:
       reusify: 1.0.4
     dev: true
+
+  /file-saver/2.0.5:
+    resolution: {integrity: sha512-P9bmyZ3h/PRG+Nzga+rbdI4OEpNDzAVyy74uVO9ATgzLK6VtAsYybF/+TOCvrc0MO793d6+42lLyZTw7/ArVzA==}
+    dev: false
 
   /fill-range/7.0.1:
     resolution: {integrity: sha512-qOo9F+dMUmC2Lcb4BbVvnKJxTPjCm+RRpe4gDuGrzkL7mEVl/djYSu2OdQ2Pa302N4oqkSg9ir6jaLWJ2USVpQ==}
