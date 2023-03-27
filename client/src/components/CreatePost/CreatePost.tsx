@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { preview } from "../../assets";
 import { getRandomPrompts } from "../../utils";
 import { FormField, Loader } from "../../components";
@@ -7,7 +7,7 @@ import { FormField, Loader } from "../../components";
 const CreatePost = () => {
   //------------------------------------------//
 
-  // const navigate = useNavigate();
+  const navigate = useNavigate();
   const [form, setForm] = useState({
     name: "",
     prompt: "",
@@ -33,7 +33,7 @@ const CreatePost = () => {
           }
         );
         await response.json();
-        // navigate("/");
+        navigate("/");
       } catch (error) {
         console.log(error);
       } finally {
