@@ -1,15 +1,4 @@
 {
-  "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "https://pixel-dreams-api.onrender.com/api/v1/$1"
-    },
-
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ],
   "rewrites": [
     {
       "source": "/create-post",
