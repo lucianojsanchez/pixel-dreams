@@ -46,7 +46,8 @@ DALLE_API_KEY=<your-dalle-api-key>
 DALLE_API_SECRET=<your-dalle-api-secret>
 ```
 
-Finally, start the server:
+Finally, start the server
+:
 
 ```
 npn start
