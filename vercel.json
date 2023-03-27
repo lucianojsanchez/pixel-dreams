@@ -2,8 +2,11 @@
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "https://pixel-dreams-api.onrender.com/api/$1"
+      "dest": "https://pixel-dreams-api.onrender.com/api/v1/$1"
     },
-    { "src": "/(.*)", "dest": "/index.html" }
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
   ]
 }
