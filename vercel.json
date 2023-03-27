@@ -1,6 +1,14 @@
 {
   "rewrites": [
     {
+      "source": "^/api/v1/(.*)$",
+      "destination": "/api/v1/$1"
+    },
+    {
+      "source": "^/(.*)\\..*$",
+      "destination": "/$1.:ext"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
